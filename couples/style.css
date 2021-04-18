@@ -1,0 +1,26 @@
+section   {
+    background-color: whitesmoke;
+}
+.site-banner1 h1   {
+    font-size: 2cm;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.site-banner1   {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.site-banner2   {
+    padding-top: 40px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+.site-banner3    {
+    padding-top: 80px;
+    margin-left: auto;
+}
+.site-banner4  {
+    padding-bottom: 90px;
+    padding-top: 30px;
+    margin-left: 40px;
+}
