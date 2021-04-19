@@ -1,117 +1,126 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+/* SOme random comment */
+.parallax {
+  background-image: url(../img/header-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*to contain the parallax*/
 .wrapper {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 2px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
 }
 
 /*to position the text in the container*/
 .heading {
-    margin-bottom: 60px;
-    text-align: center;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 /*to style the first sentence in the heading*/
 .heading-primary-main {
-    display: block;
-    font-size: 60px;
-    font-weight: bold;
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px #000;
 }
 
 /*to style the second sentence in the heading*/
 .heading-primary-sub {
-    display: block;
-    font-size: 30px;
-    text-shadow: 0 0 10px #000;
+  display: block;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 10px #000;
 }
 
 /*to style and position and style both sections of the page*/
 .section {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 0 0 5px #000;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* ============ Set default color ===================================  */
+  /* color: white;
+    text-shadow: 0 0 5px #000; */
 }
 
 /*On phones the parallax is disabled*/
 @media only screen and (max-width: 480px) {
-    .parallax {
-        background-attachment: scroll;
-        background-image: url('https://cdn.pixabay.com/photo/2020/03/20/13/23/mountain-4950653_960_720.jpg');
-        height: 100vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  .parallax {
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /*On tablets and desktops the parallax is enabled*/
 @media only screen and (min-width: 481px) {
-    .parallax {
-        background-image: url('https://cdn.pixabay.com/photo/2020/03/20/13/23/mountain-4950653_960_720.jpg');
-        height: 100vh;
-        /*to create the parallax effect*/
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  .parallax {
+    background-image: url(../img/header-bg.jpg);
+    height: 100vh;
+    /*to create the parallax effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /*to style the 2nd section*/
 .static {
-    background: whitesmoke;
-    height: 70vh;
+  background: whitesmoke;
+  height: 70vh;
 }
 
 /*to align the container to the top right of the section*/
-.container-fluid {
-    align-self: flex-start;
-    padding: 30px
+.container-fluid:not(nav > .container-fluid) {
+  align-self: flex-start;
+  padding: 30px;
 }
 
 /*to give the cards space between them and the colon*/
 .card {
-    padding: 30px;
-    margin: 40px;
+  padding: 30px;
+  margin: 40px;
 }
 
 /*to style the card header*/
 .card-header {
-    background-color: white;
+  background-color: white;
 }
 
 /*to align the card title to the center*/
 .card-title {
-    text-align: center;
+  text-align: center;
 }
 
 /*to align and style the text in the cards*/
 .card-text {
-    color: #202428;
-    text-shadow: none;
-    text-align: center;
+  color: #202428;
+  text-shadow: none;
+  text-align: center;
 }
 
 /*to allign the social media buttons*/
 .social {
-    text-align: center;
+  text-align: center;
 }
-.btn:hover{
-    box-shadow: 0 12px 16px 0 darkseagreen,0 17px 50px 0 darkseagreen;
+.btn:hover {
+  box-shadow: 0 12px 16px 0 darkseagreen, 0 17px 50px 0 darkseagreen;
 }
 /*to give the buttons a round shape*/
 .btn-primary {
-    border-radius: 50%;
+  border-radius: 50%;
 }
-
-
-
-
-
-
-
