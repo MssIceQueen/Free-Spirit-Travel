@@ -2,14 +2,6 @@
   font-family: "Lato", sans-serif;
 }
 
-/* SOme random comment */
-.parallax {
-  background-image: url(../img/header-bg.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /*to contain the parallax*/
 .wrapper {
   height: 100vh;
@@ -48,6 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 90%;
   /* ============ Set default color ===================================  */
   /* color: white;
     text-shadow: 0 0 5px #000; */
@@ -57,7 +50,7 @@
 @media only screen and (max-width: 480px) {
   .parallax {
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/forrest.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +61,7 @@
 /*On tablets and desktops the parallax is enabled*/
 @media only screen and (min-width: 481px) {
   .parallax {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/forrest.jpg);
     height: 100vh;
     /*to create the parallax effect*/
     background-attachment: fixed;
