@@ -1,4 +1,4 @@
-section {
+html body {
   background-color: whitesmoke;
 }
 .site-banner1 h1 {
@@ -13,19 +13,29 @@ section {
 .site-banner2 {
   padding-top: 40px;
   padding-left: 10px;
-  margin-left: 40px;
+  margin-left: -15px;
 }
 .site-banner3 {
   padding-top: 80px;
-  margin-left: auto;
+  margin-left: -16px;
 }
 .site-banner4 {
   padding-bottom: 90px;
   padding-top: 30px;
-  margin-left: 40px;
+  margin-left: -16px;
 }
 
 /* Positions navbar links */
 .navbar-links {
   margin-left: auto;
 }
+.my-items {
+  align-items: center;
+}
+
+    .carousel-inner img{
+      background-size: cover;
+      background-position: center;
+     height:32rem;
+      width: 32rem;
+    }
