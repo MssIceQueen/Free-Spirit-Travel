@@ -196,7 +196,7 @@ body {
 /* Cards Row Styling */
 
 .hero-section {
-  background-image: url(img/lower-img.jpg);
+  background: linear-gradient(2deg, rgb(158, 124, 164), rgb(242, 216, 194));
   /* background-size: cover; */
   /* background-position: center; */
   align-items: flex-start;
