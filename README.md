@@ -2,7 +2,7 @@
 
 https://akammahmodi.github.io/Free-Spirit-Travel/
 
- 
+![screenshot website](img/readme.png)
  
 
 created by Akam, Antonio, Ilias and Lisa
