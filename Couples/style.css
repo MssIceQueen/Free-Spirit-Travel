@@ -1,5 +1,6 @@
 html body {
   background-color: whitesmoke;
+  text-align: justify;
 }
 .site-banner1 h1 {
   font-size: 2cm;
@@ -16,7 +17,7 @@ html body {
   margin-left: -15px;
 }
 .site-banner3 {
-  padding-top: 80px;
+  padding-top: 30px;
   margin-left: -16px;
 }
 .site-banner4 {
@@ -34,8 +35,8 @@ html body {
 }
 
     .carousel-inner img{
-      background-size: cover;
+      object-fit: cover;
       background-position: center;
-     height:32rem;
+      height:32rem;
       width: 32rem;
     }
