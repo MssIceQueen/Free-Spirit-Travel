@@ -7,12 +7,12 @@ body {
   padding: 0;
 }
 
-/* Navbar  */
+/* Navbar Styling */
 .navbar-wrap {
   padding-bottom: 56px;
 }
 
-/* Video */
+/* Video Styling*/
 .video-section {
   position: relative;
   background-color: black;
@@ -53,10 +53,12 @@ body {
   z-index: 1;
 }
 
+/* Paragraph Sections font */
 .paragraph-style {
   font-family: "Roboto", sans-serif;
 }
 
+/* Styles the content section */
 .content-section {
   margin-top: 25px;
 }
