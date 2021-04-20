@@ -24,7 +24,7 @@ This platform enables us to work together on this project from anywhere. Very us
 - [x] Everything on the page has a function, a reason to be there
 - [x] No dead links
 - [x] English and dutch are not mixed
-- [ ] No spelling errors
+- [x] No spelling errors
 - [x] No grammar errors
 - [x] The website is deployed somewhere
 - [x] Everything is relevant (no image of a barber on the website of a baker)
@@ -80,73 +80,73 @@ This platform enables us to work together on this project from anywhere. Very us
 - [x] A github website has been filled in
 
 ### Readme but also writeme
-- [ ] The readme says who made it
-- [ ] The readme says why they made it
-- [ ] The readme explains what this repo/project is
+- [x] The readme says who made it
+- [x] The readme says why they made it
+- [x] The readme explains what this repo/project is
 - [ ] The readme explains why it is on github
-- [ ] The readme links to a preview (screenshot)
-- [ ] The readme contains a nice image
-- [ ] The readme does not contain the readme/license of dependencies, libraries, templates
-- [ ] If needed they are included in the repo and are mentioned in the readme
+- [x] The readme links to a preview (screenshot)
+- [x] The readme contains a nice image
+- [x] The readme does not contain the readme/license of dependencies, libraries, templates
+- [x] If needed they are included in the repo and are mentioned in the readme
 - [ ] The readme has a markdown title
 - [ ] The readme is divided in sections
-- [ ] The readme is fun to read
-- [ ] The readme looks good
-- [ ] The readme is clear, even for someone that has no idea what is going on
+- [x] The readme is fun to read
+- [x] The readme looks good
+- [x] The readme is clear, even for someone that has no idea what is going on
 
 ### I'm So Meta, Even This Acronym
-- [ ] Social media sharing meta tags are correct
-- [ ] Keywords meta tag
-- [ ] Description meta tag
+- [x] Social media sharing meta tags are correct
+- [x] Keywords meta tag
+- [x] Description meta tag
 - [ ] Title of the page is included
 - [ ] Favicon is included
-- [ ] Responsive meta tag is included
+- [x] Responsive meta tag is included
 - [ ] Charset is defined
 - [ ] Author is defined
 
 ### Data is the new oil
-- [ ] Implements (Google) analytics
+- [x] Implements (Google) analytics
 
 ### Perform all the tests
-- [ ] Lighthouse
-- [ ] W3C validator
+- [x] Lighthouse
+- [x] W3C validator
 
 ### Putting the antics back in semantics (but only for the html)
-- [ ] The html is semanticly correct
-- [ ] Navigation is in a nav
-- [ ] Lists use list tags
+- [x] The html is semanticly correct
+- [x] Navigation is in a nav
+- [x] Lists use list tags
 - [ ] H tags are used to signal importance
-- [ ] No div is used where another element is available
-- [ ] No span is used where another element is available
-- [ ] No inline styling is put on any element
-- [ ] Id's are only used once
-- [ ] The same 'type' of elements have the same classes
-- [ ] All images have an alt attribute and a title
+- [x] No div is used where another element is available
+- [x] No span is used where another element is available
+- [x] No inline styling is put on any element
+- [x] Id's are only used once
+- [x] The same 'type' of elements have the same classes
+- [x] All images have an alt attribute and a title
 
 ### Just kidding CSS deserves some love too
-- [ ] CSS follows the DRY principle
-- [ ] The CSS does not contain conflicting selectors (multiple definition for the same class/id)
-- [ ] There is no use of !important where it can be avoided
-- [ ] The page is responsive
+- [x] CSS follows the DRY principle
+- [x] The CSS does not contain conflicting selectors (multiple definition for the same class/id)
+- [x] There is no use of !important where it can be avoided
+- [x] The page is responsive
 
 ### Thermometer goes WHERE???
-- [ ] Your own style is included after the style of frameworks
-- [ ] Script tags are put at the end of the body or in the head with async/defer if possible
+- [x] Your own style is included after the style of frameworks
+- [x] Script tags are put at the end of the body or in the head with async/defer if possible
 
 ### Errors are to be avoided
-- [ ] No http resources are used on an https website
-- [ ] The console shows no errors
+- [x] No http resources are used on an https website
+- [x] The console shows no errors
 
 ### Team McNuggets
-- [ ] Add descriptive comments to your code
+- [x] Add descriptive comments to your code
 
 ### Team BeLicense
-- [ ] Use a clear folder structure in your project
+- [x] Use a clear folder structure in your project
 ### Team AdastrA
 - [ ] Call to Action : add a form of email marketing via a newsletter signup
 ### FLWR
 - [ ] Whenever you hover over an image, some text appears on top of it
 ### Hilltop B&B
- - [ ] Add at least one on hover animation
+ - [x] Add at least one on hover animation
 
 
