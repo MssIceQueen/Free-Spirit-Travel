@@ -80,9 +80,10 @@
 /*to align the container to the top right of the section*/
 .container-fluid {
   align-self: flex-start;
-  padding: 30px
 }
-
+.justify-content-between{
+  padding-top: 20px;
+}
 /*to give the cards space between them and the colon*/
 .card {
   padding: 30px;
@@ -110,7 +111,19 @@
 .social {
   text-align: center;
 }
-.btn:hover {
+/*to solve lighthouse remark: contrast ratio*/
+#emailHelp{
+  color: #52595f;
+}
+/*to style the submit button*/
+#myButton{
+  color: #2a2a2a;
+}
+#myButton:hover{
+  color: whitesmoke;
   box-shadow: 0 12px 16px 0 darkseagreen, 0 17px 50px 0 darkseagreen;
 }
-
+/*to color the links (lighthouse remark)*/
+a {
+  color: #0056b2;
+}
