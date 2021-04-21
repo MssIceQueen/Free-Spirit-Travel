@@ -1,0 +1,50 @@
+
+/*reset body*/
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*body bg color + font color*/
+body {
+  background: whitesmoke;
+  font-family: "Lato", sans-serif;
+}
+
+/*Welcome Section*/
+.heading-section h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*====Carouselheight*/
+.carouseladventure {
+  height: 32rem;
+}
+
+
+.carousel-item {
+  height: 32rem;
+}
+
+/*carousel styling*/
+.carousel-item > img {
+  object-fit: cover;
+  height: 100%;
+  filter: brightness(1) saturate(1) contrast(0.85);
+}
+
+/* Positions navbar links */
+.navbar-links {
+  margin-left: auto;
+}
+
+/*adjustment height images spirit animals*/
+.spiritimg {
+  height: 25rem;
+}
+
+.spiritimg1 {
+  height: 20rem;
+}
